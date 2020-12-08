@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <!-- Start WOWSlider.com HEAD section -->
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+  <script type="text/javascript" src="engine1/jquery.js"></script>
+  <!-- End WOWSlider.com HEAD section -->
+  <title>Krzepa - siłownia & fitness</title>
+  <link rel="icon" type="image/png" href="img/60.png"/>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Strona Główna">STRONA GŁÓWNA</a></li>
+            <li><a href="#services" data-after="Galeria">GALERIA</a></li>
+            <li><a href="#projects" data-after="Sala Kobiet">SALA KOBIET</a></li>
+            <li><a href="#about" data-after="Sklep">SKLEP</a></li>
+            <li><a href="#contact" data-after="Kontakt">KONTAKT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>KRZEPA <span></span></h1>
+        <h1>Siłownia <span></span></h1>
+        <h1>Fitness Club <span></span></h1>
+
+        <button id="cta">REGULAMIN</button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>
+            <h2>Regulamin Siłowni</h2>
+            
+            <p>1. Niniejszy regulamin określa prawa i obowiązki wszystkich osób korzystających z usług siłowni.</p>
+            
+            <p>2. Podstawą korzystania z usług siłowni jest wykupienie karnetu lub wejścia jednorazowego oraz respektowanie zasad niniejszego regulaminu.</p>
+            
+            <p>3. Dokumentem stwierdzającym prawo do korzystania z usług siłowni jest aktualny karnet.</p>
+            
+            <p>4. Karnet ma charakter imienny i nie może być odstąpiony osobom trzecim.</p>
+            
+            <p>5. Kierownictwo siłowni zastrzega sobie prawo odmowy sprzedaży karnetu lub wejścia jednorazowego bez podania przyczyny.</p>
+            
+            <p>6. Opłata za korzystanie z usług siłowni jest pobierana "z góry" przed wydaniem karnetu. Opłata nie podlega zwrotom ani w całości, ani w części w przypadku rezygnacji lub nie korzystania z usług siłowni. Opłata nie podlega także zwrotowi w przypadku wypowiedzenia karnetu ze skutkiem natychmiastowym z uwagi na ciężkie naruszenie postanowień regulaminu, w szczególności naruszenia zasad współżycia społecznego i porządku na terenie siłowni, wnoszenia, spożywania lub pozostawania pod wpływem alkoholu lub innych środków odurzających oraz nie stosowania się do zaleceń obsługi klubu i zasad bezpiecznego korzystania z urządzeń do ćwiczeń.</p>
+            
+            <p>7. Osoby korzystające z usług siłowni są zobowiązani do nie zakłócania spokoju i porządku w siłowni oraz nie utrudniania innym osobom możliwości korzystania z usług siłowni. Klienci siłowni ponoszą pełną odpowiedzialność za szkodę wyrządzoną osobom znajdującym sie na terenie siłowni, a także za szkodę w mieniu siłowni.</p>
+            
+            <p>8. Klienci siłowni zobowiązani są do pozostawienia po sobie ładu, porządku oraz korzystania z ręcznika w celu położenia go na tapicerce urządzenia do ćwiczeń.</p>
+            
+            <p>9. Klient siłowni zobowiązany jest po zakończeniu ćwiczenia do odłożenia sprzętu w przeznaczonym do tego miejscu.</p>
+            
+            <p>10. W pomieszczeniach przeznaczonych do wykonywania ćwiczeń obowiązuje obuwie i strój sportowy.</p>
+            
+            <p>11. Siłownia nie ponosi odpowiedzialności za rzeczy osób przechowywane w szatni oraz innych miejscach na terenie siłowni.</p>
+            
+            <p>12. Rzeczy wartościowe klient wnosi na teren obiektu na własną odpowiedzialność. Siłownia nie prowadzi depozytu dla przedmiotów wartościowych.</p>
+            
+            <p>13. W pomieszczeniach siłowni obowiązuje bezwzględny zakaz palenia tytoniu, spożywania i wnoszenia alkoholu, środków odurzających i narkotyków, przychodzenia w stanie nietrzeźwym, w stanie odurzenia lub pod wpływem narkotyków.</p>
+            
+            <p>14. Niniejszy regulamin, a także jego zmiany podaje się do wiadomości poprzez wywieszenie ich treści na terenie obiektu.</p>
+            
+            <p>15. W zakresie nieuregulowanym niniejszym regulaminem stosuje się przepisy kodeksu cywilnego.</p>
+            </p>
+        </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="cta">CENNIK</button>
+    <!-- The Modal -->
+    <div id="myModals" class="modals">
+
+    <!-- Modal content -->
+    <div class="modal-contents">
+      <span class="closes">&times;</span>
+      <!--<h2>CENNIK</h2>-->
+    </div> 
+</div>
+        <!--<a href="#" type="button" class="cta">Regulamin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" type="button" class="cta">CENNIK</a>-->
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">GAL<span>E</span>RIA</h1>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+  <div class="ws_images"><ul>
+      <li><img src="data1/images/7.jpg" alt="" title="" id="wows1_0"/></li>
+      <li><img src="data1/images/8.jpg" alt="8" title="8" id="wows1_1"/></li>
+      <li><img src="data1/images/9.jpg" alt="9" title="9" id="wows1_2"/></li>
+      <li><img src="data1/images/10.jpg" alt="10" title="10" id="wows1_3"/></li>
+      <li><img src="data1/images/11.jpg" alt="11" title="11" id="wows1_4"/></li>
+      <li><img src="data1/images/15.jpg" alt="15" title="15" id="wows1_5"/></li>
+      <li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_6"/></li>
+      <li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_7"/></li>
+      <li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_8"/></li>
+      <li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_9"/></li>
+      <li><a href="http://wowslider.net"><img src="data1/images/5.jpg" alt="javascript slideshow" title="5" id="wows1_10"/></a></li>
+      <li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_11"/></li>
+    </ul></div>
+  <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript carousel</a> by WOWSlider.com v9.0</div>
+  <div class="ws_shadow"></div>
+  </div>
+  <script type="text/javascript" src="engine1/wowslider.js"></script>
+  <script type="text/javascript" src="engine1/script.js"></script>
+  <!-- End WOWSlider.com BODY section -->
+            </div>
+          </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">SALA <span>KOBIET</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>KARDIO</h1>
+          </div>
+          <div class="project-img">
+            <img src="./img/k1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>ĆWICZENIA SIŁOWE</h1>
+          </div>
+          <div class="project-img">
+            <img src="./img/k2.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>KALISTENIKA</h1>
+          </div>
+          <div class="project-img">
+            <img src="./img/k3.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>ĆWICZENIA REHABILITACYJNE</h1>
+          </div>
+          <div class="project-img">
+            <img src="./img/k4.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img class="logos" src="./img/header.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">SK<span>L</span>EP</h1><br><br><br><br>
+        <!--<h2>Odżywki i suplementy</h2>-->
+
+        <div class="banner-area"></div>
+        <h3 class="offer">W naszym sklepie z odżywkami znajdziesz:<br><br> <span class="typed2"></span></h3>
+        <a href="#" class="cta">Przejdź do sklepu</a>
+      </div>
+      <div class="br-logo">
+        <img class="mySlides" src="./brands/brands/scitec.jpg">
+        <img class="mySlides" src="./brands/brands/biotechusa.jpg">
+        <img class="mySlides" src="./brands/brands/animal.jpg">
+        <img class="mySlides" src="./brands/brands/trec.jpg">
+        <img class="mySlides" src="./brands/brands/universal.png">
+        <img class="mySlides" src="./brands/brands/olimp.jpg">
+</div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">KONT<span>A</span>KT</h1><br><br><br><br>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>TELEFON</h1>
+            <h2>602-470-442</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>EMAIL</h1>
+            <h2>silowniakrzepa@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/facebook.png" /></div>
+          <div class="contact-info">
+            <h1>FACEBOOK</h1>
+            <h2><a href="https://pl-pl.facebook.com/silowniakrzepawlodawa/">KRZEPA</a></h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>ADRES</h1>
+            <h2>ul. Kraszewskiego 8a, <br>22-200 Włodawa</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>KRZEPA - </span>SIŁOWNIA & FITNESS CLUB</h1>
+      </div>
+      <!--<div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+      </div>-->
+      <p>Copyright © 2020 phz. Wszystkie prawa zastrzeżone</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script>
+  var typed = new Typed('.typed2', {
+  strings: ["ODŻYWKI DLA SPORTOWCÓW",
+            "SUPLEMENTY DIETY",
+            "BIAŁKO",
+            "AMINOKWASY",
+            "KREATYNA",
+            "WĘGLOWODANY",
+            "GAINERY",
+            "SPALACZE TŁUSZCZU"
+          ],
+  typeSpeed: 70,
+  backSpeed: 70,
+  loop: true
+  });
+  </script>
+</body>
+</html>
