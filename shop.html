@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="shopstyle.css">
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/vue-navigation-bar@1.0.0/dist/vue-navigation-bar.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <title>Krzepa - siłownia & fitness</title>
+  <script src="https://unpkg.com/vue@3.0.2"></script>
+  <script src="https://unpkg.com/vue-navigation-bar@1.0.0/dist/vue-navigation-bar.min.js"></script>
+  <link rel="icon" type="image/png" href="img/60.png"/>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="nav">
+    <div id="nav">
+
+    </div>
+  </div>
+  
+  <!-- End Header -->
+
+  
+    <div class="hero container">
+      <div id="root">
+        <div v-if="showTitle">
+          <h1>{{ title }}</h1> 
+        </div>
+        <button class="butt" @click="toggleShowTitle">
+          <span v-if="showTitle">Ukryj</span> 
+          <span v-if="!showTitle">Odkryj</span> 
+      </button>
+    </div>
+  </div>-
+      
+   
+  
+  
+
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>KRZEPA - </span>SIŁOWNIA & FITNESS CLUB</h1>
+      </div>
+      <p>Copyright © 2020 phz. Wszystkie prawa zastrzeżone</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  
+  <script src="./shop.js"></script>
+  <script src="./navbar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+</body>
+</html>
